@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>your weight</title>
+  </head>
+  <body>
+    <h1>your weight in another planet</h1>
+    <p>In the earth your weight is differents in mars or jupiter</p>
+    <script type="text/javascript">
+
+      var user = prompt("¿What is your weight?")
+      var planet = parseInt(prompt("choose your planet, 1 is mars and 2 is jupiter"));
+      var weight = parseInt(user);
+      var g_earth = 9.8;;
+      var g_jupiter = 24.8;
+      var g_mars = 3.7;
+      var final_weight;
+      var planet_name;
+
+      if(planet == 1){
+        final_weight = weight * g_mars / g_earth;
+        final_weight = parseInt(final_weight);
+        planet_name = "mars";
+
+      }else if(planet == 2){
+        final_weight = weight * g_jupiter / g_earth;
+        final_weight = parseInt(final_weight);
+        planet_name = "jupiter";
+      }else{
+        final_weight = 1000000;
+        planet_name = "kripton";
+      }
+      document.write("your weight in " + planet_name + " is <strong>"+final_weight+" Kg </strong>");
+
+
+    </script>
+  </body>
+</html>
