@@ -20,4 +20,5 @@ collection.push(new Pakiman("Tocinauro",120,40));
 for (var pakiman of collection) {
   pakiman.show();
   //This is a simple example
+  //this is an example from toshiba
 }
