@@ -23,5 +23,6 @@ class Pakiman
     document.write(" Attack: "+ this.attack);
     document.write("</p>");
     document.write("<hr/>");
+    document.write("<p>");
   }
 }
