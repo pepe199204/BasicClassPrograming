@@ -40,4 +40,5 @@ function deliveryMoney(){
       console.log("no cash");
   }
   console.log(delivered);
+  console.console.log("load to laptop");
 }
