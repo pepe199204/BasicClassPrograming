@@ -12,15 +12,15 @@ void loop()
 }*/
 //port 13 in arduino
 int yellow = 13;
-//port 7 in arduino
-int red = 7;
+//port 8 in arduino
+int red = 8;
 int miliseconds = 300;
 
 void setup(){
-	
+
   pinMode(yellow, OUTPUT);
   pinMode(red, OUTPUT);
-  
+
 }
 
 void loop(){
